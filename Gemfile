@@ -9,8 +9,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Outcommented to make Heroku work
 #gem 'sqlite3', '~> 1.4'
 #Instead use Postgress
-gem 'sqlite3', group: :development
-gem 'pg', '0.18.1', group: :production 
+gem 'sqlite3', '~>1.4.2', group: :development
+gem 'pg', '0.18.1', group: :production
 
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
