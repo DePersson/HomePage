@@ -14,12 +14,14 @@ body{
   background-color: coral;
   color:#fff;
   padding: 5px;
+  text-align: center;
 }
 
 #navbar{
   background-color: black;
   color: #fff;
   padding: 4px;
+  text-align: center;
 }
 
 #navbar ul{
@@ -41,6 +43,7 @@ body{
 #showcase {
   margin-bottom: 30px;
   text-align: center;
+  height: 1080px;
 }
 
 #showcase h2{
