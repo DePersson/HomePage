@@ -8,12 +8,13 @@ body{
 }
 
 .container{
-  margin: auto;
 }
+
 #main-header{
   background-color: coral;
   color:#fff;
   padding: 5px;
+  padding-left: 60px;
   text-align: center;
 }
 
@@ -21,11 +22,12 @@ body{
   background-color: black;
   color: #fff;
   padding: 4px;
+  padding-left: 80px;
   text-align: center;
 }
 
 #navbar ul{
-  padding: 0;
+  padding: 40;
   list-style: none;
 }
 
@@ -43,7 +45,7 @@ body{
 #showcase {
   margin-bottom: 30px;
   text-align: center;
-  height: 1080px;
+  height: auto;
 }
 
 #showcase h2{
@@ -53,8 +55,10 @@ body{
   padding-top: 30px;
 }
 
-#main {
-
+.bottom {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 40px;
 }
 
 #main-footer {
